@@ -17,7 +17,7 @@
   .scale-wrapper {
     transform: scale(0.8);              /* 👈 change this */
     transform-origin: top left;
-    width: 125%;
+    width: 140%;
     height: 125%;
   }
 
@@ -50,7 +50,6 @@
     } else {
       iframe.style.visibility = "visible";
     }
-    //https://api.stockdio.com/visualization/financial/charts/v1/Ticker?app-key=2A6DD9D7C391D403FB9D51319F15FD811&stockExchange=TSX&symbols=CSU;IFC;DOL;HXQ;VDY&scroll=No&palette=Brown-Sugar&layoutType=13&backgroundColor=00000000
   }
 
   function isWeekday() {
@@ -93,9 +92,10 @@
   <iframe
     id="st_e0f6ace58ff24491ba476ea006343c9b"
     scrolling="no"
-    src="http://api.stockdio.com/visualization/financial/charts/v1/HistoricalPrices?app-key=A6DD9D7C391D403FB9D51319F15FD811&symbol=AAPL&days=365&width=800&height=420">
+    src="https://api.stockdio.com/visualization/financial/charts/v1/Ticker?app-key=A6DD9D7C391D403FB9D51319F15FD811&stockExchange=TSX&symbols=CSU;IFC;DOL;HXQ;VDY&scroll=No&palette=Brown-Sugar&layoutType=13&backgroundColor=00000000">
   </iframe>
 </div>
 
 </body>
+</html>
 </html>
